@@ -49,7 +49,7 @@ MonoBehaviour:
       - m_Id: 2a4232a213ed38f4b8268a40c6ec8b56
         m_Value: ServerData/[BuildTarget]
       - m_Id: b2b93610e549ac34080090a0c25f8e78
-        m_Value: https://vip-software.herokuapp.com/idle-spirit/[BuildTarget]
+        m_Value: http://localhost/[BuildTarget]
     - m_InheritedParent: 
       m_Id: ea777e18e9218c0449e812289ffa11d5
       m_ProfileName: Remote
@@ -63,7 +63,7 @@ MonoBehaviour:
       - m_Id: 2a4232a213ed38f4b8268a40c6ec8b56
         m_Value: ServerData/[BuildTarget]
       - m_Id: b2b93610e549ac34080090a0c25f8e78
-        m_Value: https://raw.githubusercontent.com/8clever/idle-spirit/main/[BuildTarget]
+        m_Value: https://github.com/8clever/idle-spirit/raw/main/ServerData/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 5b4d64d65ee9cf74b98457248907543c
       m_Name: BuildTarget
@@ -99,31 +99,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 039e7e455699c194d9558b1a86a642c3, type: 2}
   m_ActiveProfileId: ea777e18e9218c0449e812289ffa11d5
   m_HostingServicesManager:
-    m_HostingServiceInfos:
-    - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
-        Unity.Addressables.Editor
-      dataStore:
-        m_SerializedData:
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Int32
-          m_Data: 3001
-          m_Key: HostingServicePort
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/Android/Android;ServerData/Android
-          m_Key: ContentRoot
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Boolean
-          m_Data: True
-          m_Key: IsEnabled
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: Local Hosting
-          m_Key: DescriptiveName
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Int32
-          m_Data: 5
-          m_Key: InstanceId
+    m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 6
     m_RegisteredServiceTypeRefs:
